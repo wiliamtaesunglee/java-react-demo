@@ -25,7 +25,7 @@ public class Task {
 
     @Getter
     @Setter
-    private Boolean done;
+    private Boolean done = false;
 
     public Task(String name, String description, Boolean done) {
         this.name = name;
