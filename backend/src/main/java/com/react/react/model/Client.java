@@ -14,7 +14,7 @@ public class Client {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Token.ID id;
+    private Long id;
 
     @Getter
     @Setter
